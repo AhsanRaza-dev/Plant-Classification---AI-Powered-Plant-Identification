@@ -1,0 +1,22 @@
+flutter_native_splash:
+  # Light theme colors from AppTheme
+  color: "#FAF8F5"  # backgroundColor from AppTheme
+  color_dark: "#1A0F1A"  # dark theme background from AppTheme
+  
+  # Your existing images
+  image: assets/images/logo.png
+  image_dark: assets/images/logo.png
+  fullscreen: true
+
+  android_12:
+    # Using your theme colors for Android 12+
+    color: "#FAF8F5"  # Light cream background (AppTheme.backgroundColor)
+    color_dark: "#1A0F1A"  # Dark theme background
+    image: assets/images/logo.png
+    image_dark: assets/images/logo.png
+    
+    # Optional: Add icon background color for better contrast
+    icon_background_color: "#6B4C6F"  # primaryColor from AppTheme
+    icon_background_color_dark: "#D4AF37"  # secondaryColor (gold) for dark theme
+
+  web: false
